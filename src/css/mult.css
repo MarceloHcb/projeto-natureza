@@ -55,7 +55,9 @@
 .logo {
     text-transform:uppercase ;
     cursor: pointer;
+    text-shadow: 2px 2px black;
 }
+
 .toggle.active {
     background: url('../images/close.png');
     background-repeat: no-repeat;
@@ -85,6 +87,7 @@
 
 }
 .text {
+    text-shadow: 2px 2px black ;
     position: relative;
     z-index: 10;
 
@@ -97,18 +100,21 @@
 }
 
 .text h3 {
+   
     font-size: 2em;
     font-weight: 700;
     line-height: 1em;
     text-transform: uppercase;
 }
 .text p {
+   
     font-size: 1.1em;
     margin: 20px 0;
     font-weight: 400;
     max-width: 700;
 }
 .text a{
+    text-shadow: none;
     display: inline-block;
     font-size:  1em;
     background: #fff;
