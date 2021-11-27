@@ -124,9 +124,13 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     transition: 0.2s;
+    text-decoration: none;
+    border-radius: 15px;
+
     }
     .text a:hover {
         letter-spacing: 6px;
+        color: chartreuse;
     }
     .menu {
         position: absolute;
@@ -164,4 +168,5 @@
         .text h3 {
             font-size: 2em;
         }
+
     }
